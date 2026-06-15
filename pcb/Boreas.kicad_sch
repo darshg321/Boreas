@@ -16861,79 +16861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 317.5 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aee0b7a-1844-40ee-adea-0df7bb4e4f8d")
-		(property "Reference" "J4"
-			(at 320.04 203.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 320.04 205.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 317.5 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 317.5 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1292ccbe-538f-405e-9ba3-7f9dc08fe69a")
-		)
-		(pin "1"
-			(uuid "b66a4fa6-c468-4483-95a9-52e44f66ff6e")
-		)
-		(pin "2"
-			(uuid "43b02d87-f300-43b2-9cb2-ccaf44aeffc0")
-		)
-		(instances
-			(project "Boreas"
-				(path "/66b324e0-ef0b-4e1e-b632-08b83dd1529e"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 393.7 219.71 180)
 		(unit 1)
@@ -17962,6 +17889,79 @@
 			(project ""
 				(path "/66b324e0-ef0b-4e1e-b632-08b83dd1529e"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 317.5 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "610cc38a-3a72-4808-9291-8a60079bb264")
+		(property "Reference" "J5"
+			(at 320.04 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 320.04 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 317.5 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 317.5 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "69e5d921-05c3-4eef-9a11-2df5352cb132")
+		)
+		(pin "1"
+			(uuid "208d8e48-b88f-4ade-9482-f68f1ecfad8d")
+		)
+		(pin "2"
+			(uuid "32c6960a-6ef4-4cad-bedb-e08f91b4aa5f")
+		)
+		(instances
+			(project "Boreas"
+				(path "/66b324e0-ef0b-4e1e-b632-08b83dd1529e"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -24323,79 +24323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 317.5 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f56891c3-02af-4dc6-8b26-54c051dafe38")
-		(property "Reference" "J5"
-			(at 320.04 220.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 320.04 223.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 317.5 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 317.5 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a35b9f5d-102a-4b53-a018-9f9a73e4e489")
-		)
-		(pin "1"
-			(uuid "91f68f28-3ad6-4872-9b06-612e19a0d816")
-		)
-		(pin "2"
-			(uuid "f575c85f-3c16-4182-a7e2-5f617334b6b7")
-		)
-		(instances
-			(project "Boreas"
-				(path "/66b324e0-ef0b-4e1e-b632-08b83dd1529e"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 311.15 207.01 0)
 		(unit 1)
@@ -24558,7 +24485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 317.5 187.96 0)
 			(effects
 				(font
@@ -24598,6 +24525,79 @@
 			(project ""
 				(path "/66b324e0-ef0b-4e1e-b632-08b83dd1529e"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 317.5 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff1aaec5-de0e-4025-b2c9-ab66ddfd96be")
+		(property "Reference" "J4"
+			(at 320.04 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 320.04 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 317.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 317.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d5793f9a-3af6-413c-a75e-fb30f0e98cf0")
+		)
+		(pin "1"
+			(uuid "74e8b100-68ca-4006-a984-c14f215cbb70")
+		)
+		(pin "2"
+			(uuid "6df00b31-cc63-4928-94cc-ebdec3de8d1a")
+		)
+		(instances
+			(project "Boreas"
+				(path "/66b324e0-ef0b-4e1e-b632-08b83dd1529e"
+					(reference "J4")
 					(unit 1)
 				)
 			)
